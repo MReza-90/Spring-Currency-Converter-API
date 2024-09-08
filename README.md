@@ -13,7 +13,7 @@ The **Spring-currency-converter API** is a RESTful API built with Spring Boot th
 - **RestTemplate/WebClient**: For making HTTP calls to external APIs.
 - **ExchangeRate-API**: For fetching real-time exchange rates.
 - **Maven**: Dependency management.
-- **Java 11+**: Programming language.
+- **Java 17+**: Programming language.
 
 ## API Endpoints
 
@@ -34,7 +34,7 @@ The **Spring-currency-converter API** is a RESTful API built with Spring Boot th
    {
      "base": "USD",
      "rates": {
-       "EUR": 0.85,
+       "EUR": 0.91,
        "GBP": 0.75,
        "JPY": 110.25
      }
@@ -49,14 +49,14 @@ The **Spring-currency-converter API** is a RESTful API built with Spring Boot th
    Sample response:
    ```json
    {
-     "Converted Amount": "85.00"
+     "Converted Amount": "91.00"
    }
    ```
 
 ## How to Run the Project
 
 ### Prerequisites:
-- Java 11+
+- Java 17+
 - Maven
 
 ### Steps to Run:
